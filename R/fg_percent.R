@@ -4,6 +4,8 @@
 #' @param year What year are you interested in? Defaults to 1990.
 #' @keywords FG
 #' @export
+#' @import dplyr
+#' @importFrom magrittr %>%
 #' @examples
 #' fg_percent()
 

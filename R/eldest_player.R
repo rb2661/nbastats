@@ -4,6 +4,8 @@
 #' @param year What year are you interested in? Defaults to 1990.
 #' @keywords eldest
 #' @export
+#' @import dplyr
+#' @importFrom magrittr %>%
 #' @examples
 #' eldest_player()
 

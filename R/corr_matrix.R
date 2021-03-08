@@ -4,6 +4,8 @@
 #' @param year What year are you interested in? Defaults to 1990.
 #' @keywords matrix, correlation
 #' @export
+#' @import dplyr
+#' @importFrom magrittr %>%
 #' @examples
 #' corr_matrix()
 
