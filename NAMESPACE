@@ -3,3 +3,5 @@
 export(corr_matrix)
 export(eldest_player)
 export(fg_percent)
+import(dplyr)
+importFrom(magrittr,"%>%")
