@@ -11,7 +11,7 @@
 
 eldest_player <- function(year=1990) {
   library(magrittr, "%>%")
-  nba %>%
+  nbastats::nba %>%
     dplyr::filter(Year == year) %>%
     dplyr::select(Player, Age) %>%
     dplyr::arrange(desc(Age)) %>%

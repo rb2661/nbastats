@@ -13,7 +13,7 @@
 
 corr_matrix <- function(year=1990) {
   library(magrittr, "%>%")
-  nba_yr <- nba %>%
+  nba_yr <- nbastats::nba %>%
     dplyr::filter(Year == year)
   nba_num_var <- select_if(nba_yr, is.numeric)
   cor(nba_num_var)
