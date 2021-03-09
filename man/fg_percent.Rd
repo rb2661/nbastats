@@ -7,7 +7,7 @@
 fg_percent(year = 1990)
 }
 \arguments{
-\item{year}{What year are you interested in? Defaults to 1990.}
+\item{input_data, }{year What year are you interested in? Defaults to 1990.}
 }
 \description{
 This function allows you to check Michael Jordan's field goal percentage in a given year.

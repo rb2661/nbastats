@@ -12,7 +12,7 @@
 
 fg_percent <- function(year=1990) {
   library(magrittr, "%>%")
-  nba %>%
+  nbastats::nba %>%
     dplyr::select(Player, Year, `FG%`) %>%
     dplyr::filter(Year == year, Player == 'Michael Jordan*')
 }
